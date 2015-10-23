@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		69322E731BDA0D71002DD6F5 /* BigDollarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69322E721BDA0D71002DD6F5 /* BigDollarView.xib */; settings = {ASSET_TAGS = (); }; };
+		69322E771BDA0DD3002DD6F5 /* DollarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69322E751BDA0DD3002DD6F5 /* DollarViewController.m */; settings = {ASSET_TAGS = (); }; };
+		69322E781BDA0DD3002DD6F5 /* DollarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69322E761BDA0DD3002DD6F5 /* DollarViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		69322E7A1BDA1D7F002DD6F5 /* dollar.png in Resources */ = {isa = PBXBuildFile; fileRef = 69322E791BDA1D7F002DD6F5 /* dollar.png */; settings = {ASSET_TAGS = (); }; };
+		699580341BD6604A0014AA46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 699580331BD6604A0014AA46 /* main.m */; };
+		699580371BD6604A0014AA46 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 699580361BD6604A0014AA46 /* AppDelegate.m */; };
+		6995803A1BD6604A0014AA46 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 699580391BD6604A0014AA46 /* ViewController.m */; };
+		6995803D1BD6604A0014AA46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6995803B1BD6604A0014AA46 /* Main.storyboard */; };
+		699580401BD6604A0014AA46 /* EzTip.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6995803E1BD6604A0014AA46 /* EzTip.xcdatamodeld */; };
+		699580421BD6604A0014AA46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 699580411BD6604A0014AA46 /* Assets.xcassets */; };
+		699580451BD6604A0014AA46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 699580431BD6604A0014AA46 /* LaunchScreen.storyboard */; };
+		699580501BD6604B0014AA46 /* EzTipTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6995804F1BD6604B0014AA46 /* EzTipTests.m */; };
+		6995805B1BD6604B0014AA46 /* EzTipUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6995805A1BD6604B0014AA46 /* EzTipUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6995804C1BD6604A0014AA46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 699580271BD6604A0014AA46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6995802E1BD6604A0014AA46;
+			remoteInfo = EzTip;
+		};
+		699580571BD6604B0014AA46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 699580271BD6604A0014AA46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6995802E1BD6604A0014AA46;
+			remoteInfo = EzTip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		69322E721BDA0D71002DD6F5 /* BigDollarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BigDollarView.xib; sourceTree = "<group>"; };
+		69322E741BDA0DD3002DD6F5 /* DollarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DollarViewController.h; sourceTree = "<group>"; };
+		69322E751BDA0DD3002DD6F5 /* DollarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DollarViewController.m; sourceTree = "<group>"; };
+		69322E761BDA0DD3002DD6F5 /* DollarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DollarViewController.xib; sourceTree = "<group>"; };
+		69322E791BDA1D7F002DD6F5 /* dollar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dollar.png; sourceTree = "<group>"; };
+		6995802F1BD6604A0014AA46 /* EzTip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EzTip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		699580331BD6604A0014AA46 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		699580351BD6604A0014AA46 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		699580361BD6604A0014AA46 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		699580381BD6604A0014AA46 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		699580391BD6604A0014AA46 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6995803C1BD6604A0014AA46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6995803F1BD6604A0014AA46 /* EzTip.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EzTip.xcdatamodel; sourceTree = "<group>"; };
+		699580411BD6604A0014AA46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		699580441BD6604A0014AA46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		699580461BD6604A0014AA46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6995804B1BD6604A0014AA46 /* EzTipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EzTipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6995804F1BD6604B0014AA46 /* EzTipTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EzTipTests.m; sourceTree = "<group>"; };
+		699580511BD6604B0014AA46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		699580561BD6604B0014AA46 /* EzTipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EzTipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6995805A1BD6604B0014AA46 /* EzTipUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EzTipUITests.m; sourceTree = "<group>"; };
+		6995805C1BD6604B0014AA46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6995802C1BD6604A0014AA46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		699580481BD6604A0014AA46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		699580531BD6604B0014AA46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		699580261BD6604A0014AA46 = {
+			isa = PBXGroup;
+			children = (
+				699580311BD6604A0014AA46 /* EzTip */,
+				6995804E1BD6604A0014AA46 /* EzTipTests */,
+				699580591BD6604B0014AA46 /* EzTipUITests */,
+				699580301BD6604A0014AA46 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		699580301BD6604A0014AA46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6995802F1BD6604A0014AA46 /* EzTip.app */,
+				6995804B1BD6604A0014AA46 /* EzTipTests.xctest */,
+				699580561BD6604B0014AA46 /* EzTipUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		699580311BD6604A0014AA46 /* EzTip */ = {
+			isa = PBXGroup;
+			children = (
+				69322E791BDA1D7F002DD6F5 /* dollar.png */,
+				699580351BD6604A0014AA46 /* AppDelegate.h */,
+				699580361BD6604A0014AA46 /* AppDelegate.m */,
+				699580381BD6604A0014AA46 /* ViewController.h */,
+				699580391BD6604A0014AA46 /* ViewController.m */,
+				6995803B1BD6604A0014AA46 /* Main.storyboard */,
+				699580411BD6604A0014AA46 /* Assets.xcassets */,
+				699580431BD6604A0014AA46 /* LaunchScreen.storyboard */,
+				699580461BD6604A0014AA46 /* Info.plist */,
+				6995803E1BD6604A0014AA46 /* EzTip.xcdatamodeld */,
+				699580321BD6604A0014AA46 /* Supporting Files */,
+				69322E721BDA0D71002DD6F5 /* BigDollarView.xib */,
+				69322E741BDA0DD3002DD6F5 /* DollarViewController.h */,
+				69322E751BDA0DD3002DD6F5 /* DollarViewController.m */,
+				69322E761BDA0DD3002DD6F5 /* DollarViewController.xib */,
+			);
+			path = EzTip;
+			sourceTree = "<group>";
+		};
+		699580321BD6604A0014AA46 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				699580331BD6604A0014AA46 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6995804E1BD6604A0014AA46 /* EzTipTests */ = {
+			isa = PBXGroup;
+			children = (
+				6995804F1BD6604B0014AA46 /* EzTipTests.m */,
+				699580511BD6604B0014AA46 /* Info.plist */,
+			);
+			path = EzTipTests;
+			sourceTree = "<group>";
+		};
+		699580591BD6604B0014AA46 /* EzTipUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6995805A1BD6604B0014AA46 /* EzTipUITests.m */,
+				6995805C1BD6604B0014AA46 /* Info.plist */,
+			);
+			path = EzTipUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6995802E1BD6604A0014AA46 /* EzTip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6995805F1BD6604B0014AA46 /* Build configuration list for PBXNativeTarget "EzTip" */;
+			buildPhases = (
+				6995802B1BD6604A0014AA46 /* Sources */,
+				6995802C1BD6604A0014AA46 /* Frameworks */,
+				6995802D1BD6604A0014AA46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EzTip;
+			productName = EzTip;
+			productReference = 6995802F1BD6604A0014AA46 /* EzTip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6995804A1BD6604A0014AA46 /* EzTipTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 699580621BD6604B0014AA46 /* Build configuration list for PBXNativeTarget "EzTipTests" */;
+			buildPhases = (
+				699580471BD6604A0014AA46 /* Sources */,
+				699580481BD6604A0014AA46 /* Frameworks */,
+				699580491BD6604A0014AA46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6995804D1BD6604A0014AA46 /* PBXTargetDependency */,
+			);
+			name = EzTipTests;
+			productName = EzTipTests;
+			productReference = 6995804B1BD6604A0014AA46 /* EzTipTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		699580551BD6604B0014AA46 /* EzTipUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 699580651BD6604B0014AA46 /* Build configuration list for PBXNativeTarget "EzTipUITests" */;
+			buildPhases = (
+				699580521BD6604B0014AA46 /* Sources */,
+				699580531BD6604B0014AA46 /* Frameworks */,
+				699580541BD6604B0014AA46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				699580581BD6604B0014AA46 /* PBXTargetDependency */,
+			);
+			name = EzTipUITests;
+			productName = EzTipUITests;
+			productReference = 699580561BD6604B0014AA46 /* EzTipUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		699580271BD6604A0014AA46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					6995802E1BD6604A0014AA46 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					6995804A1BD6604A0014AA46 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 6995802E1BD6604A0014AA46;
+					};
+					699580551BD6604B0014AA46 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 6995802E1BD6604A0014AA46;
+					};
+				};
+			};
+			buildConfigurationList = 6995802A1BD6604A0014AA46 /* Build configuration list for PBXProject "EzTip" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 699580261BD6604A0014AA46;
+			productRefGroup = 699580301BD6604A0014AA46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6995802E1BD6604A0014AA46 /* EzTip */,
+				6995804A1BD6604A0014AA46 /* EzTipTests */,
+				699580551BD6604B0014AA46 /* EzTipUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6995802D1BD6604A0014AA46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				699580451BD6604A0014AA46 /* LaunchScreen.storyboard in Resources */,
+				69322E731BDA0D71002DD6F5 /* BigDollarView.xib in Resources */,
+				69322E781BDA0DD3002DD6F5 /* DollarViewController.xib in Resources */,
+				699580421BD6604A0014AA46 /* Assets.xcassets in Resources */,
+				6995803D1BD6604A0014AA46 /* Main.storyboard in Resources */,
+				69322E7A1BDA1D7F002DD6F5 /* dollar.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		699580491BD6604A0014AA46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		699580541BD6604B0014AA46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6995802B1BD6604A0014AA46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6995803A1BD6604A0014AA46 /* ViewController.m in Sources */,
+				699580371BD6604A0014AA46 /* AppDelegate.m in Sources */,
+				699580401BD6604A0014AA46 /* EzTip.xcdatamodeld in Sources */,
+				69322E771BDA0DD3002DD6F5 /* DollarViewController.m in Sources */,
+				699580341BD6604A0014AA46 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		699580471BD6604A0014AA46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				699580501BD6604B0014AA46 /* EzTipTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		699580521BD6604B0014AA46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6995805B1BD6604B0014AA46 /* EzTipUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6995804D1BD6604A0014AA46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6995802E1BD6604A0014AA46 /* EzTip */;
+			targetProxy = 6995804C1BD6604A0014AA46 /* PBXContainerItemProxy */;
+		};
+		699580581BD6604B0014AA46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6995802E1BD6604A0014AA46 /* EzTip */;
+			targetProxy = 699580571BD6604B0014AA46 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6995803B1BD6604A0014AA46 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6995803C1BD6604A0014AA46 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		699580431BD6604A0014AA46 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				699580441BD6604A0014AA46 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6995805D1BD6604B0014AA46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6995805E1BD6604B0014AA46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		699580601BD6604B0014AA46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EzTip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.threek.EzTip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		699580611BD6604B0014AA46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EzTip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.threek.EzTip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		699580631BD6604B0014AA46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EzTipTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.threek.EzTipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EzTip.app/EzTip";
+			};
+			name = Debug;
+		};
+		699580641BD6604B0014AA46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EzTipTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.threek.EzTipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EzTip.app/EzTip";
+			};
+			name = Release;
+		};
+		699580661BD6604B0014AA46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EzTipUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.threek.EzTipUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EzTip;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		699580671BD6604B0014AA46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EzTipUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.threek.EzTipUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EzTip;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6995802A1BD6604A0014AA46 /* Build configuration list for PBXProject "EzTip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6995805D1BD6604B0014AA46 /* Debug */,
+				6995805E1BD6604B0014AA46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6995805F1BD6604B0014AA46 /* Build configuration list for PBXNativeTarget "EzTip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				699580601BD6604B0014AA46 /* Debug */,
+				699580611BD6604B0014AA46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		699580621BD6604B0014AA46 /* Build configuration list for PBXNativeTarget "EzTipTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				699580631BD6604B0014AA46 /* Debug */,
+				699580641BD6604B0014AA46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		699580651BD6604B0014AA46 /* Build configuration list for PBXNativeTarget "EzTipUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				699580661BD6604B0014AA46 /* Debug */,
+				699580671BD6604B0014AA46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6995803E1BD6604A0014AA46 /* EzTip.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6995803F1BD6604A0014AA46 /* EzTip.xcdatamodel */,
+			);
+			currentVersion = 6995803F1BD6604A0014AA46 /* EzTip.xcdatamodel */;
+			path = EzTip.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 699580271BD6604A0014AA46 /* Project object */;
+}
